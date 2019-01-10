@@ -20,6 +20,7 @@ html {
 
 a:link {
     color:gray;
+    text-decoration: none;
 }
 
 a:visited {
@@ -50,6 +51,7 @@ a:visited {
     overflow: hidden;
     padding: 20px;
     width: 960px;
+    height: 350px;
     margin: auto;
 }
 
@@ -82,8 +84,8 @@ h2, h3, h4 {
     background-color:slategray;
     text-align:center;
     height:60px;
-    position: relative;
-    top: 60px;
+    position: static;
+    margin-top:15%
 }
 
 #submit {
@@ -91,10 +93,10 @@ h2, h3, h4 {
     color:white;
 }
 
-
-
 .gallery {
     margin: 5px;
     float: left;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
 }
