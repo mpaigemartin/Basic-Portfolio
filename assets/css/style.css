@@ -56,6 +56,10 @@ a:visited {
     box-shadow: none;
 }
 
+.clearfix {
+    clear: both;
+}
+
 h2, h3, h4 {
     font-size: 28px;
     margin-bottom: 10px;
