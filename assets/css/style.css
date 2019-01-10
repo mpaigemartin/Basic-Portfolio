@@ -12,6 +12,7 @@ html {
     margin-bottom: 20px;
     height:75px;
     box-sizing: border-box;
+    word-spacing: 8px;
 }
 
 .wrapper {
@@ -52,7 +53,7 @@ a:visited {
     padding: 20px;
     width: 960px;
     height: 350px;
-    margin: auto;
+    margin: 40px auto;
 }
 
 h2, h3, h4 {
@@ -88,9 +89,18 @@ h2, h3, h4 {
     margin-top:15%
 }
 
+.message {
+    width: 960px;
+}
+
+#message {
+    height: 150px;
+}
+
 #submit {
     background-color: teal;
     color:white;
+    margin-top: 20px;
 }
 
 .gallery {
