@@ -4,19 +4,18 @@ html {
     position:relative;
 }
 
+.wrapper {
+    background-color: white;
+    box-shadow: 2px 1px 50px; 
+    height: 75px;
+    margin-bottom: 20px;
+}
 
 #div1 {
     text-align: right;
-    box-shadow: 2px 1px 50px;
-    background-color: white;
-    margin-bottom: 20px;
-    height:75px;
-    box-sizing: border-box;
     word-spacing: 8px;
-}
-
-.wrapper {
-    
+    margin: auto;
+    width: 1000px;
 }
 
 a:link {
@@ -34,7 +33,6 @@ a:visited {
     background-color: teal;
     width: 200px;
     float: left;
-    margin-left: 306px;
     height:75px;
     font-weight: bold;
     font-size: 30px;
@@ -47,13 +45,14 @@ a:visited {
     line-height: 1.5em;
 }
 
-#div3 {
+#main {
     background-color: white;
     overflow: hidden;
     padding: 20px;
     width: 960px;
     height: 350px;
     margin: 40px auto;
+    box-shadow: none;
 }
 
 h2, h3, h4 {
