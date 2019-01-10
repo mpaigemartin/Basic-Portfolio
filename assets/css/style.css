@@ -12,6 +12,7 @@ html {
 }
 
 #div1 {
+    line-height:75px;
     text-align: right;
     word-spacing: 8px;
     margin: auto;
